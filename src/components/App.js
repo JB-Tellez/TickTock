@@ -12,7 +12,7 @@ export default class App extends React.Component {
   }
 
   addClock() {
-    const clocks = [...this.state.clocks, <Clock />];
+    const clocks = [...this.state.clocks, <Clock key={this.state.clocks.length} />];
     this.setState({ clocks });
   }
 
