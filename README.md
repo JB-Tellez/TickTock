@@ -1,2 +1,0 @@
-# TickTock
-Created with CodeSandbox
